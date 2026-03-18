@@ -3,28 +3,15 @@
 
 int main()
 {
-    char name [50]= "AB";
-    char copy[100];
+    int x = 10;
+    int y = 1;
+    int* Ptrname = NULL;
+    Ptrname = &x;
 
-    strcat(name, "ab");
-    printf("Name: ", name);
-    
-    
-    scanf("%s", name);
+    *Ptrname = *Ptrname + y;
 
-    printf("%c\n", name[0]);
-
-    strcpy(copy, name); //copies string
-    printf("%s", copy);
-
-    strcat(name, copy); //appends
-    printf("\n%s", name);
-
-    printf("%d", strlen(name)); //brings back the length
-
-    if(strcmp("B", "Bernard")<0) //compares
-    printf("\nAllen Bernard");
-    else
-    printf("\nBernard Allen");
+    printf("%p\n", &x);
+    printf("%d\n", *Ptrname);
+    printf("%p", &Ptrname);
     return 0;
 }
