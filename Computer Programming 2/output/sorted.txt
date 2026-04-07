@@ -1,12 +1,15 @@
-WORD            ADDRESS           LENGTH    
--------------------------------------------------
-int             0000021A515C1120   3         
-char            0000021A515C10E0   4         
-array           0000021A515C1100   5         
-science         0000021A515B42A0   7         
-string          0000021A515C1140   7         
-student         0000021A515B42C0   7         
-computer        0000021A515BA6D0   8         
-function        0000021A515BA6F0   8         
-variable        0000021A515BA6B0   8         
-programming     0000021A515BA550   11        
+NAME       ID#   AGE
+-------------------------
+MALE:
+Anton      07    19
+Berto      12    19
+Carlos     11    16
+Juan       05    18
+Pedro      06    17
+
+FEMALE:
+Ana        10    17
+Bella      09    18
+Clara      01    18
+Maria      02    19
+Victoria   03    18
