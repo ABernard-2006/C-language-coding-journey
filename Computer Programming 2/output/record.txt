@@ -1,0 +1,3 @@
+John Doe,45,Democratic Party
+Jane Smith,50,Republican Party
+Alice Guo,40,POGO Party
